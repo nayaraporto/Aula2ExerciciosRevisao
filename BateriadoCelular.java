@@ -16,10 +16,10 @@ public class BateriadoCelular {
             bateria -= gastoPorMinuto;
 
             if (bateria < 0) bateria = 0; 
-            System.out.println("Minuto " + minutos + " → Bateria: " + bateria + "%");
+            System.out.println("Minuto " + minutos + " Bateria: " + bateria + "%");
         }
 
-        System.out.println("\n🔋 A bateria acabou após " + minutos + " minutos usando TikTok!");
+        System.out.println("\n A bateria acabou após " + minutos + " minutos usando TikTok!");
     }
 }
 
@@ -27,4 +27,5 @@ public class BateriadoCelular {
 	}
 
 }
+
 
