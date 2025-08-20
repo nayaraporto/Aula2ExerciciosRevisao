@@ -1,7 +1,7 @@
 package ExerciciosRevisao;
-
-public class AventuraDragao {
 import java.util.Random;
+public class AventuraDragao {
+
 	public static void main(String[] args) {
 		
 
@@ -29,6 +29,7 @@ import java.util.Random;
 
 
 	
+
 
 
 
