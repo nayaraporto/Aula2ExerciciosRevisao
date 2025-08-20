@@ -8,7 +8,7 @@ public class AteTirar6 {
         int tentativa = 0;
         int resultado;
 
-        System.out.println("Rolando o dado até sair 6...\n");
+        System.out.println("Rolando o dado até sair 6\n");
 
         do {
             resultado = 1 + random.nextInt(6); 
@@ -22,6 +22,7 @@ public class AteTirar6 {
 
 
 	
+
 
 
 
