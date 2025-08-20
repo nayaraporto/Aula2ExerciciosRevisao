@@ -22,8 +22,8 @@ public class LutaPersonagens {
             if (vidaPersonagem1 < 0) vidaPersonagem1 = 0;
             if (vidaPersonagem2 < 0) vidaPersonagem2 = 0;
 
-            System.out.println("Personagem 1 causa " + dano1 + " de dano → Vida do Personagem 2: " + vidaPersonagem2);
-            System.out.println("Personagem 2 causa " + dano2 + " de dano → Vida do Personagem 1: " + vidaPersonagem1 + "\n");
+            System.out.println("Personagem 1 causa " + dano1 + " de dano Vida do Personagem 2: " + vidaPersonagem2);
+            System.out.println("Personagem 2 causa " + dano2 + " de dano Vida do Personagem 1: " + vidaPersonagem1 + "\n");
 
             rodada++;
         } while (vidaPersonagem1 > 0 && vidaPersonagem2 > 0);
@@ -40,6 +40,7 @@ public class LutaPersonagens {
 
 
 	
+
 
 
 
