@@ -17,7 +17,7 @@ import java.util.Random;
 
             if (vida < 0) vida = 0; 
 
-            System.out.println("Rodada " + rodada + " → O dragão causou " + dano + " de dano!");
+            System.out.println("Rodada " + rodada + " O dragão causou " + dano + " de dano!");
             System.out.println("Vida restante do jogador: " + vida + "\n");
 
             rodada++;
@@ -29,6 +29,7 @@ import java.util.Random;
 
 
 	
+
 
 
 
