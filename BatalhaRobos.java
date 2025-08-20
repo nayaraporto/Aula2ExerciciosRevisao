@@ -31,7 +31,6 @@ public class BatalhaRobos {
         }
 
         
-        System.out.println("\n===== PLACAR FINAL =====");
         System.out.println("Robô 1: " + pontosRobo1 + " pontos");
         System.out.println("Robô 2: " + pontosRobo2 + " pontos");
 
@@ -49,6 +48,7 @@ public class BatalhaRobos {
 
 
 	
+
 
 
 
