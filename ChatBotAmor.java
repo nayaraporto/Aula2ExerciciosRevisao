@@ -7,7 +7,7 @@ public class ChatBotAmor {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Você é legal? (responda 'sim' ou 'não'): ");
-        String resposta = sc.nextLine().toLowerCase(); // deixa minúsculo para facilitar
+        String resposta = sc.nextLine().toLowerCase();
 
         if (resposta.equals("sim")) {
             System.out.println("Você merece um bombom ");
@@ -25,4 +25,5 @@ public class ChatBotAmor {
 	}
 
 }
+
 
