@@ -13,7 +13,7 @@ public class AteTirar6 {
         do {
             resultado = 1 + random.nextInt(6); 
             tentativa++;
-            System.out.println("Tentativa " + tentativa + " → saiu " + resultado);
+            System.out.println("Tentativa " + tentativa + " saiu " + resultado);
         } while (resultado != 6);
 
         System.out.println("\n O número 6 saiu após " + tentativa + " tentativas!");
@@ -24,4 +24,5 @@ public class AteTirar6 {
 	}
 
 }
+
 
